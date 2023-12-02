@@ -1,0 +1,62 @@
+{
+	"info": {
+		"_postman_id": "05ff2373-13c1-45ac-9d72-98d9738bf3dd",
+		"name": "marvel",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "6032414"
+	},
+	"item": [
+		{
+			"name": "/v1/public/characters",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "/v1/public/characters/{characterId}",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "ejercicio 2 a",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "ejercicio 2 b",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "getQuerys",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/getAllQueryService",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"getAllQueryService"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
